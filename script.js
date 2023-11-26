@@ -2,7 +2,7 @@
 const form=document.getElementById("form");
 let exicute=(event)=>
 	{
-		alert(event.target.first_name.value);
+		alert(event.target.FirstName.value);
 		alert(event.target.Last_name.value);
 		alert(event.target.PhoneNumber.value);
 		alert(event.target.email.value);
