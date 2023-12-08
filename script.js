@@ -2,6 +2,7 @@
 const form=document.getElementById("form");
 let exicute=(event)=>
 	{
+		event.preventDefault();
 		alert(event.target.LastName.value,event.target.FirstName.value);
 		alert(event.target.LastName.value);
 		alert(event.target.PhoneNumber.value);
